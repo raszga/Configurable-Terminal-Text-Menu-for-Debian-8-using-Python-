@@ -1,4 +1,4 @@
-# Configurable-Terminal-Text-Menu-for-Debian-8-using-Python-
+# Window(s) Configurable-Terminal-Text-Menu-for-Debian-8-using-Python
 
 *****************************************************
 Important note : the example is using pygame joystick for reading a number of Joysticks.
