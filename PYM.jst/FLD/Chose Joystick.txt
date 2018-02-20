@@ -1,0 +1,6 @@
+1 - Chose Jstk
+2 - Test Jstk
+3 - Record Jstk as Text
+4 - Line4
+5 - Line5
+E - Exit

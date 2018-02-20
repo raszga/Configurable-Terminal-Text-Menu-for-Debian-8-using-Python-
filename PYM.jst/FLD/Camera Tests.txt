@@ -1,0 +1,6 @@
+1 - Select Camera
+2 - Start Camera
+3 - Take Picture
+4 - Record Video
+5 - Line5
+E - Exit

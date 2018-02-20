@@ -1,0 +1,6 @@
+1 - About Screen
+2 - Multi Rectangle
+3 - Current folders Variables
+4 - Line4
+5 - Line5
+E - Exit
