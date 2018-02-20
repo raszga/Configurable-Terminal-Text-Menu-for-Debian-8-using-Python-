@@ -51,3 +51,5 @@ The example uploaded  needs one or more  USB Joystick(s) connected to the comput
 To work in the  terminal, open a terminal,
 change folder with cd to tthe PYM folder and type idle
 loaad and start Start2.py
+I wrote a blog on the matter , is unser "update" but the basics are descibed in more detail:
+url: https://www.blogger.com/blogger.g?blogID=3604439620906987660#editor/target=post;postID=547390122005328807;onPublishedMenu=allposts;onClosedMenu=allposts;postNum=0;src=postname
