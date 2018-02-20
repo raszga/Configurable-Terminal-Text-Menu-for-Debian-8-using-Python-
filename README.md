@@ -1,22 +1,21 @@
 # Configurable-Terminal-Text-Menu-for-Debian-8-using-Python-
-*** Important note : the example is using pygame joystick which has to be re-compiled to avoid the debug printing on the screen.
 
+*****************************************************
+Important note : the example is using pygame joystick for reading a number of Joysticks.
+Pygame which has to be re-compiled to avoid the debug printing on the terminal screen screen.
 I found the instructions to fix the issue :
-
 How not to have pygame wiritting on console - follow exactly
-
 cd /tmp
 sudo apt-get build-dep pygame
 apt-get source pygame
 nano pygame-1.9.1release+dfsg/src/joystick.c
-# search for the printf("SDL.. messages and put a // in front
+#search for the printf("SDL.. messages and put a // in front
 apt-get source --compile pygame
 ls *.deb
-# next command put the deb file which you found
+#next command put the deb file which you found
 sudo dpkg -i python-pygame_1.9.1release+dfsg-9ubuntu1_amd64.deb
-# can be different name
-
-
+#can be different name
+****************************************************************
 It happened quite few times that I needed to present data in the text terminal accessible under Debian 8 Linux Dist.
 
 The data broadcast in the terminal has the advantage of being free from the IDLE  and being able to run the Python program as a system command 
@@ -32,3 +31,7 @@ The menus are configurable and described in text files which can be edited and e
 The basic navigation is made by using the arrow keys by using curses
 
 The example uploaded  needs one or more  USB Joystick(s) connected to the computer to run but if you start from IDLE the Start2.py it is tolerant to errors and if you don't have the Joystick the rest of demo will work fine.
+
+To work in the  terminal, open a terminal,
+change folder with cd to tthe PYM folder and type idle
+loaad and start Start2.py
