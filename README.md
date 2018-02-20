@@ -2,19 +2,33 @@
 
 *****************************************************
 Important note : the example is using pygame joystick for reading a number of Joysticks.
+
 Pygame which has to be re-compiled to avoid the debug printing on the terminal screen screen.
+
 I found the instructions to fix the issue :
+
 How not to have pygame wiritting on console - follow exactly
+
 cd /tmp
+
 sudo apt-get build-dep pygame
+
 apt-get source pygame
+
 nano pygame-1.9.1release+dfsg/src/joystick.c
+
 #search for the printf("SDL.. messages and put a // in front
+
 apt-get source --compile pygame
+
 ls *.deb
+
 #next command put the deb file which you found
+
 sudo dpkg -i python-pygame_1.9.1release+dfsg-9ubuntu1_amd64.deb
+
 #can be different name
+
 ****************************************************************
 It happened quite few times that I needed to present data in the text terminal accessible under Debian 8 Linux Dist.
 
