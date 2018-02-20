@@ -2,7 +2,7 @@ import sys
 import os
 sys.path.append(os.getcwd()+'/MOD') # define local folder for loading modules
 from C_VAR import * # The general variable module, load it in every other
-from C_Menu_21 import *
+from C_Menu_22 import *
 from KY_1 import *
 
 T.Gen()
