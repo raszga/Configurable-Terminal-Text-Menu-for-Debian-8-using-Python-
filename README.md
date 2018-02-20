@@ -29,6 +29,8 @@ sudo dpkg -i python-pygame_1.9.1release+dfsg-9ubuntu1_amd64.deb
 
 #can be different name
 
+url : https://stackoverflow.com/questions/2125702/how-to-suppress-console-output-in-python/25061573
+
 ****************************************************************
 It happened quite few times that I needed to present data in the text terminal accessible under Debian 8 Linux Dist.
 
